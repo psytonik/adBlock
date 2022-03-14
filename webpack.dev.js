@@ -1,0 +1,1 @@
+// eslint-disable-next-line no-undef,@typescript-eslint/no-var-requiresconst { merge } = require("webpack-merge");// eslint-disable-next-line no-undef,@typescript-eslint/no-var-requiresconst common = require("./webpack.common");// eslint-disable-next-line no-undefmodule.exports = merge(common, {    mode:"development",    devtool: "cheap-module-source-map"});
